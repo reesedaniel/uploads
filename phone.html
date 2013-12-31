@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>danielnet Phone</title>
+    
+    <style type="text/css">
+    
+    * {
+        margin:0;
+        padding:0;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    #page-wrap {
+        display:table;
+        margin:50px auto;
+    }
+    
+    #keypad {
+        float:left;
+        text-align:center;
+        font-family:'Helvetica Neue',sans-serif;
+        font-weight:100;
+    }
+    
+    #side {
+        float:right;
+        background:red;
+        width:250px;
+        margin-left:10px;
+    }
+
+    
+    #keypad > span {
+        display:inline-block;
+        width:50px;
+        height:50px;
+        margin:10px;
+        line-height:50px;
+        border-radius:50px;
+        border:1px #5A58FF solid;
+        background-color:white;
+        
+        font-size:26px;
+        color:#343434;
+        transition:.5s;
+        -webkit-transition:.5s;
+    }
+    
+     #keypad > span:active {
+        color:white;
+        background:#5A58FF;
+        transition:0s;
+        -webkit-transition:0s;
+    }
+    
+    #keypad > #call {
+        background-color:#66FF66;
+        font-size:26px;
+        font-weight:200;
+        color:white;
+        line-height:50px;
+        border-radius:5px;
+        transition:0.2s;
+        -webkit-transition:0.2s;
+    }
+    
+    #keypad > #call:active {
+        box-shadow:0 0 80px 1px black inset;
+        transition:0s;
+        -webkit-transition:0s;
+    }
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    
+    <div id="page-wrap">
+    
+    <div id="keypad">
+        
+        
+        <span id="1">1</span>
+        <span id="2">2</span>
+        <span id="3">3</span>
+        <br>
+        <span id="4">4</span>
+        <span id="5">5</span>
+        <span id="6">6</span>
+        <br>
+        <span id="7">7</span>
+        <span id="8">8</span>
+        <span id="9">9</span>
+        <br>
+        <span id="star">*</span>
+        <span id="0">0</span>
+        <span id="hash">#</span>
+        <br>
+        
+        <div id="call">Call</div>
+        
+        
+    </div>
+    
+
+    
+    </div>
+    
+</body>
+</html>
