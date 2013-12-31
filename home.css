@@ -32,7 +32,7 @@ p {
 
 .page-wrap {
   width:700px;
-  min-height:500px;
+  min-height:400px;
   margin:30px auto;
   padding:25px;
   background:white;
@@ -54,6 +54,12 @@ p {
   width:60%;
   min-height:400px;
   margin-bottom:50px;
+}
+
+.main article {
+    margin:0 10px 20px 0;
+    padding:5px 5px 20px 0;
+    border-bottom:1px #B3B3B3 dashed;
 }
 
 .side {
