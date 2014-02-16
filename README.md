@@ -3,4 +3,4 @@ uploads
 
 Uploaded files
 
-# All files in gh-pages repo
+# All files in gh-pages branch
